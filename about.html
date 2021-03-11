@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>_User_Supplied_Title_</title>
-  <meta name="description" content="_User_Supplied_Description_">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mavo/0.2.0/mavo.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mavo/0.2.0/mavo.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit/dist/css/uikit.min.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>_User_Supplied_Title_</title>
+    <meta name="description" content="_User_Supplied_Description_">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mavo/0.2.0/mavo.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mavo/0.2.0/mavo.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit/dist/css/uikit.min.css" />
 </head>
+
 <body mv-app="simple" mv-storage="local" mv-plugins="tinymce">
-  <div id="page-head" class="uk-text-center">
-    <img id="about_image" property src="uploads/about-yax-template-tutorial.webp" alt="About Yax Template Tutorial" width="640" height="400">
-    <h1 id="about_headline" property >About Keith's First Yax Template</h1>
-  </div>
-  <div class="tinymce" id="about_content" property >
-    Edit page content here. I've put text in a separate div because I don't like it centered. Also, I've chosen about for this page name because I don't think it's a website without an 'About' section.
-  </div>
+    <nav class="uk-navbar-container" uk-navbar>
+        <ul class="uk-navbar-nav">
+            <li><a href="index.html"><span id="navlink1" property>Home</span></a></li>
+            <li><a href="about.html"><span id="navlink2" property>About</span></a></li>
+        </ul>
+    </nav>
+    <div id="page-head" class="uk-text-center">
+        <img id="about_image" property src="uploads/about-yax-template-tutorial.webp" alt="About Yax Template Tutorial"
+            width="640" height="400">
+        <h1 id="about_headline" property>About Keith's First Yax Template</h1>
+    </div>
+    <div class="tinymce" id="about_content" property>
+        Edit page content here. I've put text in a separate div because I don't like it centered. Also, I've chosen
+        about for this page name because I don't think it's a website without an 'About' section.
+    </div>
 </body>
+
 </html>

@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>_User_Supplied_Title_</title>
-  <meta name="description" content="_User_Supplied_Description_">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mavo/0.2.0/mavo.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mavo/0.2.0/mavo.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit/dist/css/uikit.min.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>_User_Supplied_Title_</title>
+    <meta name="description" content="_User_Supplied_Description_">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mavo/0.2.0/mavo.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mavo/0.2.0/mavo.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit/dist/css/uikit.min.css" />
 </head>
+
 <body mv-app="simple" mv-storage="local" mv-plugins="tinymce">
-  <div id="content" property class="tinymce">
-    Edit here.
-  </div>
+    <nav class="uk-navbar-container" uk-navbar>
+        <ul class="uk-navbar-nav">
+            <li><a href="index.html"><span id="navlink1" property>Home</span></a></li>
+            <li><a href="about.html"><span id="navlink2" property>About</span></a></li>
+        </ul>
+    </nav>
+    <div id="content" property class="tinymce">
+        Edit here.
+    </div>
 </body>
+
 </html>
